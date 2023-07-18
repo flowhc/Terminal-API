@@ -1,0 +1,118 @@
+{
+	"info": {
+		"_postman_id": "0736d4d2-7070-4622-bf3e-df42ed4579bb",
+		"name": "Ship-API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/Ship/Read/b3b8da46859d4ecf897a0917bcea099f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Ship",
+						"Read",
+						"b3b8da46859d4ecf897a0917bcea099f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GETALL",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"Ship2\",\"length\":200.0,\"width\":21.0,\"code\":\"BBBB-1234-A1\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Ship/Create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Ship",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UPDATE",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"Ship2\",\"length\":250.0,\"width\":21.0,\"code\":\"BBBB-1234-A1\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Ship/Update",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Ship",
+						"Update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/Ship/Delete/BBBB-1234-A1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Ship",
+						"Delete",
+						"BBBB-1234-A1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
