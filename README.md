@@ -1,12 +1,12 @@
 # Terminal-API
-# Start
+## Start
 There are differnt ways to start this API:
 
-- In your IDE: Check out the Repo and run it in your ID
+- In your IDE: Check out the Repo and run it in your IDE
 - Docker: Pull the Docker Image https://hub.docker.com/r/flowhc/terminal-api
 - With UI: Use the Docker-Compose file https://github.com/flowhc/Terminal-Infrastructur
 
-# Usage
+## Usage
 After Starting the App, you can use the UI (https://github.com/flowhc/Terminal-UI) to play around. There is also a Postman Collection in the Repo.
 If you want to consume it. You find the Endpoints under the following link http://localhost:8080/Ship/
 
